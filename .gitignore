@@ -1,0 +1,13 @@
+# Documentation-only showcase: never stage local credentials or generated private material.
+.env
+.env.*
+*.pem
+*.key
+*.log
+__pycache__/
+.cache/
+model-cache/
+verification/
+local-media/
+.DS_Store
+Thumbs.db
